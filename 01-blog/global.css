@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lexend+Deca&display=swap');
+
+:root {
+  --gradiente: linear-gradient(270deg, #3ea1db 0%, #574ae8 100%);
+  --purple-500: #574ae8;
+
+  --white: #ffffff;
+  --white-200: #f3f5f7;
+
+  --grey-500: #717171;
+  --grey-800: #1a202c;
+
+  --ff-Inter: 'Inter', sans-serif;
+  --ff-Lexend: 'Lexend Deca', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1rem;
+  font-family: var(--ff-Lexend);
+  background: var(--white-200);
+}
