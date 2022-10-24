@@ -7,16 +7,17 @@
 }
 
 :root {
-  --text-color: #333533;
-  --bg: #e9ecef;
-  --button-bg: #f8f9fa;
+  --text: #373739;
+  --text-button: #f7f7f9;
+  --bg: rgba(238, 235, 248, 0.5);
+  --button-bg: #7658dc;
 
   --ff-Inter: 'Inter', sans-serif;
   --ff-Lexend: 'Lexend Deca', sans-serif;
 }
 
 html {
-  color: var(--text-color);
+  color: var(--text);
   font-family: var(--ff-Lexend);
 }
 
@@ -28,7 +29,6 @@ body {
 .grid {
   width: 80%;
   display: flex;
-  margin: 5rem auto;
 }
 
 .card {
@@ -40,10 +40,12 @@ body {
   background: var(--bg);
 }
 
-.card img {
+img {
   max-width: 100%;
-  padding: 1rem 0;
-  border-radius: 8px;
+
+  border-radius: 4px;
+  margin: 1.5rem 0;
+  box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.2);
 }
 
 .links {
@@ -67,7 +69,7 @@ button:hover {
 button a {
   text-decoration: none;
   font-family: var(--ff-Lexend);
-  color: var(--text-color);
+  color: var(--text-button);
 }
 
 @media screen and (max-width: 900px) {
