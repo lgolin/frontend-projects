@@ -4,6 +4,7 @@
 
 .btn-light {
   background: #f7f7f7;
+  border: 2px solid #ededef96;
 }
 
 @media screen and (max-width: 600px) {
