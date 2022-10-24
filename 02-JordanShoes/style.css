@@ -11,7 +11,7 @@ header > h3 {
 
 .banner {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
 
   color: var(--white);
@@ -19,16 +19,20 @@ header > h3 {
 
 .banner > img {
   width: 100%;
-  opacity: 0.8;
+  filter: brightness(0.6);
 }
 
 .banner-text {
   position: absolute;
-  background: var(--black-light);
+  width: 1200px;
 }
 
 .banner-text h2 {
   font-size: 2rem;
+}
+
+.banner-text p {
+  line-height: 2;
 }
 
 .main {
@@ -48,4 +52,18 @@ header > h3 {
   background: var(--white-200);
   padding: 4rem 1rem;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 600px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: auto;
+  }
+
+  .grid > img {
+    padding: 0;
+  }
 }
