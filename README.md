@@ -3,8 +3,8 @@
 ### Codelândia
 Projects developed from the Codelândia discord community. 
 
-| Project Name  | 💾 Code source   | 💻 Live  | 📅 Date  | Languages
+| Project Name  | 💾 Code source   | 💻 Demo  | 📅 Date  | Languages
 | ------------ | ------------ | ------------ | ------------ | ------------ |
-| Blog  | [Github](https://github.com/lgolin/frontend-projects/tree/main/01-blog)   | [Live](https://lgolin.github.io/frontend-projects/01-blog)  | 19-10-22 | HTML・CSS|
-| Jordan Shoes  | [Github](https://github.com/lgolin/frontend-projects/tree/main/02-JordanShoes)   | [Live](https://lgolin.github.io/frontend-projects/02-JordanShoes)  | 24-10-22 |  HTML・CSS |
+| Blog  | [Github](https://github.com/lgolin/frontend-projects/tree/main/01-blog)   | [Demo](https://lgolin.github.io/frontend-projects/01-blog)  | 19-10-22 | HTML・CSS|
+| Jordan Shoes  | [Github](https://github.com/lgolin/frontend-projects/tree/main/02-JordanShoes)   | [Demo](https://lgolin.github.io/frontend-projects/02-JordanShoes)  | 24-10-22 |  HTML・CSS |
 

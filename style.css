@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lexend+Deca&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text-color: #333533;
+  --bg: #e9ecef;
+  --button-bg: #f8f9fa;
+
+  --ff-Inter: 'Inter', sans-serif;
+  --ff-Lexend: 'Lexend Deca', sans-serif;
+}
+
+html {
+  color: var(--text-color);
+  font-family: var(--ff-Lexend);
+}
+
+body {
+  width: 900px;
+  margin: 1rem auto;
+}
+
+.grid {
+  max-width: 900px;
+  display: flex;
+  margin: 5rem auto;
+}
+
+.card {
+  width: 250px;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  background: var(--bg);
+}
+
+.card img {
+  max-width: 100%;
+  padding: 1rem 0;
+  border-radius: 8px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 8px;
+  background: var(--button-bg);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.2;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button a {
+  text-decoration: none;
+  font-family: var(--ff-Lexend);
+  color: var(--text-color);
+}
