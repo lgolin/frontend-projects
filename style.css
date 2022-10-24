@@ -5,3 +5,14 @@
 .btn-light {
   background: #f7f7f7;
 }
+
+@media screen and (max-width: 600px) {
+  .container {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .row {
+    gap: 0 !important;
+  }
+}
