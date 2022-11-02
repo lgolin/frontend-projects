@@ -1,0 +1,26 @@
+.bg {
+  background: black;
+  color: white;
+}
+
+.img-fluid {
+  width: 100%;
+  filter: brightness(50%) blur(1px);
+}
+
+.text-start {
+  color: #fff;
+}
+
+.d-flex {
+  margin: 5rem 0;
+}
+
+.d-flex img {
+  background-color: #dedede;
+  border-radius: 4px;
+}
+
+.d-flex img:hover {
+  opacity: 0.8;
+}
