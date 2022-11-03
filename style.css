@@ -7,12 +7,6 @@
   border: 2px solid #ededef96;
 }
 
-.flex {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
 @media screen and (max-width: 600px) {
   .container {
     max-width: 300px;
