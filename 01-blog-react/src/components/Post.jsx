@@ -34,21 +34,19 @@ const posts = [
 
 function Post() {
   return (
-    <div className={styles.test}>
-      <main>
-        {posts.map((post) => (
-          <div className={styles.post}>
-            <div className={styles.date}>
-              <p>{post.date}</p>
-              <Heart size={24} />
-            </div>
-
-            <h2>{post.title}</h2>
-            <p>{post.content}</p>
+    <main>
+      {posts.map((post) => (
+        <div className={styles.cardPost}>
+          <div className={styles.date}>
+            <p>{post.date}</p>
+            <Heart size={20} />
           </div>
-        ))}
-      </main>
-    </div>
+
+          <h2>{post.title}</h2>
+          <p>{post.content}</p>
+        </div>
+      ))}
+    </main>
   );
 }
 

@@ -12,6 +12,12 @@
   --grey-800: #1a202c;
 }
 
+/* tira a borda padrao do site todo */
+:focus {
+  outline: transparent;
+  box-shadow: 0 0 0 2px var(--white-200);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -21,4 +27,14 @@
 body {
   font-family: var(--font-family-Lexend);
   background: var(--white-200);
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: var(--font-family-Lexend);
+  font-weight: 400;
+  font-size: 1rem;
 }

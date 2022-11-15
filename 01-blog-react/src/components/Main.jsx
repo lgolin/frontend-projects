@@ -1,5 +1,5 @@
 import styles from './Main.module.css';
-import Post from './Post.jsx';
+import Post from './Post';
 
 function Main() {
   return (
