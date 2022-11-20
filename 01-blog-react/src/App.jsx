@@ -1,12 +1,12 @@
-import styles from './App.module.css';
 import Header from './components/Header';
-import Main from './components/Main';
+import Posts from './components/Posts';
+import './styles/global.scss';
 
 function App() {
   return (
     <>
       <Header />
-      <Main />
+      <Posts />
     </>
   );
 }

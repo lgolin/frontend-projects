@@ -1,0 +1,12 @@
+@import '../../styles/variaveis';
+
+.containerInput {
+    width: $container;
+    margin-top: 4rem;
+    input {
+      width: 100%;
+      border: none;
+      padding: 1rem;
+      border-radius: 4px;
+    }
+}

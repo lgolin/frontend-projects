@@ -1,0 +1,40 @@
+@import-normalize;
+@import "./variaveis";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+  color: $grey-800;
+  background: $white-200;
+}
+
+:focus {
+  outline: transparent;
+  box-shadow: 0 0 0 2px $white-200;
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: $Lexend;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+body::-webkit-scrollbar {
+  width: 4px;
+}
+body::-webkit-scrollbar-track {
+  background: $bg-gradient;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: $grey-300;
+  border-radius: 20px;
+}
