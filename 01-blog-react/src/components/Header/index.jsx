@@ -1,4 +1,5 @@
 import Input from '../Input';
+
 import styles from './Header.module.scss';
 
 export default function Header() {
