@@ -1,32 +1,28 @@
 @import '../../styles/variaveis';
 
-@mixin placeholder {
-  color: $white;
-  opacity: 0.4;
-}
-
 .containerInput {
     width: $container;
-    margin-top: 4rem;
+    margin-top: 3rem;
     display: flex;
     position: relative;
     align-items: center;
     .icon {
       position: absolute;
       margin-left: .5rem;
-     @include placeholder;
+      color: $white;
     }
     input {
       width: 100%;
       border: none;
-      padding: 1rem 2.5rem;
+      padding: 1.2rem 3rem;
       border-radius: 4px;
       font-family: $Inter;
       color: $white;
 
       background: rgba(255, 255, 255, 0.2);
       &::placeholder {
-        @include placeholder;
+        color: $white;
+        opacity: 0.5;
       }
     }
     

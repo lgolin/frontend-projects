@@ -14,7 +14,7 @@ export default function Posts() {
                 <HeartStraight size={20} color="#574ae8" />
               </p>
             </div>
-            <h3>{post.title}</h3>
+            <p className={styles.title}>{post.title}</p>
             <p className={styles.content}>{post.content}</p>
           </section>
         );

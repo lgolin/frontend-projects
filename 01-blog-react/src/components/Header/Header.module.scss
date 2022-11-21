@@ -3,6 +3,7 @@
 header {
   background: $bg-gradient;
   height: 250px;
+  margin-bottom: 6.25rem;
 
   div {
     width: $container;
@@ -13,8 +14,8 @@ header {
    
     p {
       color: $white;
-      padding: 1.5rem 0;
-      font-size: 1.25rem;
+      padding: 2.5rem 0;
+      font-size: 1.5rem;
     }
   }
 }
