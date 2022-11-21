@@ -43,6 +43,7 @@ section {
     font-size: 1.125rem;
     line-height: 2rem;
     color: $grey-300;
+    font-weight: 300;
 
     @include respond(small) {
       font-size: 0.875rem;
