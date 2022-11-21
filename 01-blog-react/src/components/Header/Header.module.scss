@@ -5,17 +5,33 @@ header {
   height: 250px;
   margin-bottom: 6.25rem;
 
+  @include respond(small) {
+    margin-bottom: 1rem;
+  }
+
   div {
     width: $container;
     margin: 0 auto;
 
     display: flex;
     justify-content: space-between;
+
+    @include respond(medium) {
+      width: $container-m;
+    }
+
+    @include respond(small) {
+      width: $container-xs;
+    }
    
     p {
       color: $white;
       padding: 2.5rem 0;
-      font-size: 1.5rem;
+      font-size: 1.5rem;  
+
+      @include respond(small) {
+        font-size: 1.3rem;
+      }
     }
   }
 }

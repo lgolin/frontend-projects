@@ -6,6 +6,13 @@
     display: flex;
     position: relative;
     align-items: center;
+    @include respond(medium) {
+      width: $container-m;
+    }
+
+    @include respond(small) {
+      width: $container-xs;
+    }
     .icon {
       position: absolute;
       margin-left: .5rem;
