@@ -7,11 +7,7 @@ export default function Posts() {
   const [isActive, setIsActive] = useState(false);
 
   const handleClick = () => {
-    // 👇️ toggle
     setIsActive((current) => !current);
-
-    // 👇️ or set to true
-    // setIsActive(true);
   };
 
   return (
